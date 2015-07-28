@@ -1,8 +1,8 @@
-## description
+## Description
 - A module for simplyfying the usage of nodejs prompts.
-- make it possible to yield a inquirer Prompt
 - Currently based on [inquirer](https://www.npmjs.com/package/inquirer)
-- Only possible to use within [co](https://www.npmjs.com/package/co)
+- make it possible to yield a inquirer Prompt
+- has to used within [co](https://www.npmjs.com/package/co)
 
 ## Installation
 
