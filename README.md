@@ -9,6 +9,7 @@
     npm install dm-prompt --save
 
 ## Usage
+- [inquirer examples](https://github.com/SBoudrias/Inquirer.js/tree/master/examples)
 
     var dmPrompt = require("dm-prompt");
     var co = require("co");
@@ -16,7 +17,7 @@
     var job = {};
 
     job.start = co.wrap(function*() {
-        // for other options see [inquirer examples](https://github.com/SBoudrias/Inquirer.js/tree/master/examples)
+        // for other options see inquirer examples
         var directoryAnswer =
             yield dmPrompt({
                 type: "input",
