@@ -3,13 +3,13 @@
 - Currently based on [inquirer](https://www.npmjs.com/package/inquirer)
 - make it possible to yield a inquirer Prompt
 - has to used within [co](https://www.npmjs.com/package/co)
+- [inquirer examples](https://github.com/SBoudrias/Inquirer.js/tree/master/examples)
 
 ## Installation
 
     npm install dm-prompt --save
 
 ## Usage
-- [inquirer examples](https://github.com/SBoudrias/Inquirer.js/tree/master/examples)
 
     var dmPrompt = require("dm-prompt");
     var co = require("co");
