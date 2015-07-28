@@ -29,10 +29,5 @@
 
     module.exports = job;
 
-
-// =========== [ MODULE EXPORT ] ===========
-module.exports = job;
-    var name
-
 ## TODO
 - wrap new Seperator()
