@@ -16,7 +16,7 @@
     var job = {};
 
     job.start = co.wrap(function*() {
-        // for other options see https://github.com/SBoudrias/Inquirer.js/tree/master/examples
+        // for other options see [inquirer examples](https://github.com/SBoudrias/Inquirer.js/tree/master/examples)
         var directoryAnswer =
             yield dmPrompt({
                 type: "input",
