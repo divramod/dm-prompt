@@ -2,7 +2,7 @@
 - A module for simplyfying the usage of nodejs prompts.
 - Currently based on [inquirer](https://www.npmjs.com/package/inquirer)
 - make it possible to yield a inquirer Prompt
-- has to used within [co](https://www.npmjs.com/package/co)
+- has to be used within [co](https://www.npmjs.com/package/co)
 - [inquirer examples](https://github.com/SBoudrias/Inquirer.js/tree/master/examples)
 
 ## Installation
@@ -11,7 +11,7 @@
 
 ## Usage
 
-    var dmPrompt = require("dm-prompt");
+    var dmPrompt = require("dm-prompt").Inquirer;
     var co = require("co");
 
     var job = {};

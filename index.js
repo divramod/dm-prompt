@@ -17,10 +17,11 @@ job.start = function Prompt(prompt) {
 }
 
 // =========== [ job.run ] ===========
-module.exports = co.wrap(function*(questions) {
+job.Inquirer = co.wrap(function*(questions) {
     return yield job.start(questions)
         .bind({}) // A blank object for 'this'
         .then(function(choices) {
             return choices;
         });
 }); // job.run
+module.exports = job;
